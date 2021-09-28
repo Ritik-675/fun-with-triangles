@@ -3,5 +3,69 @@
     margin: 0;
 }
 body{
-    background-image: url(./back.jpg.crdownload);
+    background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+nav{
+    background-color: gray;
+    height: 10vh;
+    text-align: center;
+    padding: 2vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 15vw;
+    position: relative;
+    top: 20vh;
+    left: 38vw;
+    margin-left: 5vw;
+}
+input{
+    margin: 1rem 0rem;
+}
+.text-out{
+    border: 1px solid black;
+    height: 5vh;
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    background-color: cornsilk;
+}
+footer{
+    background-color: gray;
+    height: 10vh;
+    position: relative;
+    top: 33vh;
+}
+.foot{
+    background-color: gray;
+    height: 10vh;
+    position: relative;
+    top: 17vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding:  2vh;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.question-container{
+    display: flex;
+    flex-direction: column;
+}
+p,input[type="radio"]{
+    margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem 1rem;
+}
+a:hover{
+    background-color: rgb(80, 76, 76);
+
 }
