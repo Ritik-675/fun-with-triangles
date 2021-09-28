@@ -6,44 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fun with triangles</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <nav>
       <ul>
         <li><a href="index.html">Is triangle ?</a></li>
-        <li><a href="quiz.html">Triangle Quiz</a></li>
-        <li><a href="quiz.html">Hypotenuese</a></li>
+        <li><a href="quiz.html" style="text-decoration: underline;">Triangle Quiz</a></li>
+        <li><a href="hypot.html">Hypotenuese</a></li>
         <li><a href="quiz.html">Magical</a></li>
-    </ul>
+      </ul>
     </nav>
-    <form action="" class="quiz-form">
+    <form action="" class="quiz-form" onsubmit="return false">
       <div class="question-container">
-        <p>How many sides and angles do triangles have?</p>
-        <label for="opa"
-          ><input type="radio" name="opa" id="op1" /> 2 sides, 3 angles</label
-        >
-        <label for="opa"
-          ><input type="radio" name="opa" id="op2" /> 3 sides, 3 angles</label
-        >
-        <label for="opa"
-          ><input type="radio" name="opa" id="op3" />
+        <div class="options">
+          <p>How many sides and angles do triangles have?</p>
+          <label for="opa"
+            ><input type="radio" name="opa" id="op1" value="2 sides, 3 angles"/>2 sides, 3 angles</label
+          >
+          <label for="opa"
+            ><input type="radio" name="opa" id="op2" value="3 sides, 3 angles" /> 3 sides, 3 angles</label
+          >
+          <label for="opa"
+            ><input type="radio" name="opa" id="op3" value="3 sides, 1 angle" />
 
-          3 sides, 1 angle</label
-        >
-        <label for="opa"
-          ><input type="radio" name="opa" id="op4" /> 4 sides, 2 angles</label
-        >
-        <p>
-          Fill in the blank, all of the angles in a triangle add up to _____.
-        </p>
-        <label for="op"><input type="radio" name="op" id="op1" /> 180</label>
-        <label for="op"><input type="radio" name="op" id="op2" /> 270</label>
-        <label for="op"><input type="radio" name="op" id="op3" /> 90</label>
-        <label for="op"><input type="radio" name="op" id="op4" /> 360</label>
-    </div>
-    <button class="submit-button">Submit answers</button>
+            3 sides, 1 angle</label
+          >
+          <label for="opa"
+            ><input type="radio" name="opa" id="op4" value="4 sides, 2 angles" /> 4 sides, 2 angles</label
+          >
+        </div>
+        <div class="options">
+          <p>
+            Fill in the blank, all of the angles in a triangle add up to _____.
+          </p>
+          <label for="op"><input type="radio" name="op" id="op1" value="180" /> 180</label>
+          <label for="op"><input type="radio" name="op" id="op2" value="270" /> 270</label>
+          <label for="op"><input type="radio" name="op" id="op3" value="90" /> 90</label>
+          <label for="op"><input type="radio" name="op" id="op4" value="360" /> 360</label>
+        </div>
+      </div>
+      <button class="submit-button">Submit answers</button>
     </form>
     <div class="output"></div>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/Ritik-675"
+            ><i
+              class="fa fa-github-square"
+              style="color: #db2777; font-size: 5rem"
+            ></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ritik-yadav-675abc/"
+            ><i
+              class="fa fa-linkedin-square"
+              style="color: #db2777; font-size: 5rem"
+            ></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ritikyadav_675/"
+            ><i
+              class="fa fa-instagram"
+              style="color: #db2777; font-size: 5rem"
+            ></i
+          ></a>
+        </li>
+      </ul>
+      <h2><a href="#">Portfolio</a></h2>
+    </footer>
     <script src="quiz.js"></script>
   </body>
 </html>

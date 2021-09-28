@@ -24,13 +24,13 @@ button{
     height: 5vh;
     font-size: 1.2rem;
 }
+p{
+  color: #db2777;
+}
 label{
     color: #db2777;
     font-size: 1.5rem;
     font-weight: 400;
-}
-form {
-  background-color: #fdf2f8;
 }
 .container {
   padding: 8vh 7vw;
@@ -89,16 +89,17 @@ footer ul{
 footer li{
   margin: 0 3rem;
 }
-.question-container {
-  display: flex;
-  flex-direction: column;
+.question-container p {
+  margin: 5vh 5vh;
+  font-size: 1.5rem;
 }
 input[type="text"]{
     border-radius: 0.5rem;
     height: 5vh;
 }
-input[type="radio"] {
+p,input[type="radio"] {
   margin: 1rem;
+  margin-left: 3rem;
 }
 a {
   text-decoration: none;
@@ -114,4 +115,40 @@ h2{
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
+}
+.submit-button{
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+form{
+  margin-top: 15vh;
+}
+.output{
+  background-color: cornsilk;
+  padding: 2rem;
+  max-width: 25vw;
+  border: 3px solid #db2777;
+  border-radius: 0.5rem;
+  margin: 3rem;
+  position: relative;
+}
+.options{
+  border: 3px solid #db2777;
+  margin: 2rem;
+  max-width: 50vw;
+  border-radius: 0.5rem;
+}
+.output{
+  font-size: 1.5rem;
+  text-align: center;
+}
+.formula{
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+  top: 10vh;
+  border: 3px solid #db2777;
+  border-radius: 0.5rem;
+  max-width: 30vw;
+  left: 35vw;
 }
