@@ -5,11 +5,14 @@ var checkButton = document.querySelector(".check") ;
 var textOut = document.querySelector(".opa") ;
 
 function checkTriangle(){
-    if(Number(angle1.value) + Number(angle2.value) + Number(angle3.value) === 180)
+    if(angle1.value=="" || angle2.value=="" || angle3.value==""){
+        textOut.innerText = "Enter all the fields correctly" ;
+    }
+    else if(Number(angle1.value) + Number(angle2.value) + Number(angle3.value) === 180)
     {
         textOut.innerText = "yess it is a triangle" ;
     }
-    else{
+    else {
         textOut.innerText = "No , It is  not a triangle" ;
     }
 }
