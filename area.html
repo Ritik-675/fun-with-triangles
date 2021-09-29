@@ -15,22 +15,23 @@
     <nav>
       <div class="items">
         <ul>
-          <li><a href="index.html" style="text-decoration: underline;">Is triangle ?</a></li>
+          <li><a href="index.html">Is triangle ?</a></li>
           <li><a href="quiz.html">Triangle Quiz</a></li>
           <li><a href="hypot.html">Hypotenuese</a></li>
-          <li><a href="area.html">Area</a></li>
+          <li><a href="area.html" style="text-decoration: underline;">Area</a></li>
         </ul>
       </div>
     </nav>
     <div class="container">
-      <label for="agngle1">angle 1 (in degrees) </label>
-      <input type="text" class="angle1" />
-      <label for="agngle2">angle 2 (in degrees) </label>
-      <input type="text" class="angle2" />
-      <label for="agngle3">angle 3 (in degrees) </label>
-      <input type="text" class="angle3" />
-      <button class="check">Is it a triangle ?</button>
+      <label for="side1">Base</label>
+      <input type="text" class="side1" />
+      <label for="side2">Height </label>
+      <input type="text" class="side2" />
+      <button class="check">Calculate Area</button>
       <p class="text-out"><span class="opa"></span></p>
+    </div>
+    <div class="formula">
+        <p>Area= 1/2 * Base * Height</p>
     </div>
     <footer>
       <ul>
@@ -61,6 +62,6 @@
       </ul>
       <h2><a href="#">Portfolio</a></h2>
     </footer>
-    <script src="tri.js"></script>
+    <script src="area.js"></script>
   </body>
 </html>
