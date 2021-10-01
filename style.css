@@ -149,6 +149,15 @@ form{
   top: 10vh;
   border: 3px solid #db2777;
   border-radius: 0.5rem;
-  max-width: 30vw;
-  left: 35vw;
+  max-width: 40vw;
+  left: 31vw;
+}
+.check{
+  height: 8vh;
+}
+.butback{
+  background-color: black;
+}
+.text-out{
+  margin-bottom: 0 !important;
 }
